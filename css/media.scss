@@ -1,0 +1,118 @@
+@media screen and (min-width: 480px){
+body{
+    #middle{
+        #slider{
+            height: 400px;
+        }
+    }
+    .flex{
+        flex-direction: row;
+    }
+    #skills{ 
+        ul{
+            margin-bottom: 20px;
+        }
+    }
+    #contact{
+        
+        .flex2{
+        flex-direction: column;
+    }
+}
+}
+}
+@media screen and (min-width:760px){
+body{
+    .flex2{
+        flex-direction: row !important;
+    }
+        #head{
+            #meni{
+                width: 30%;
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 20px;
+                    li{
+                        margin-right: 10px;
+                        &:last-child{
+                            margin-right: 0px;
+                        }
+                        a{
+                            font-size: 20px;
+                            &:hover{
+                                font-size:25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #middle{
+            #slider{
+                height: 500px;
+                #slider-text{
+                    h1{
+                        font-size: 30px;
+                    }
+                    h2{
+                        font-size: 25px;
+                    }
+                }
+            }
+            #projects{
+                .okvir{
+                    #projectFlex{
+                        width: 100%;
+                        min-height: 300px;
+                        display: flex;
+                        flex-wrap:wrap;
+                        justify-content: space-between;
+                        .project{
+                            width: 40%;
+                            img{width: 100%;
+                        }
+                        }
+                    }
+                }
+
+            }
+            
+          
+    }
+}
+@media screen and (min-width:980px){
+    body{
+        #head{
+            ul{
+                li{a{
+                    font-size: 30px;
+                    &:hover{
+                        font-size:40px;
+                    }
+                }
+                }
+            }
+        }
+        #middle{
+            #slider{
+                background-image: url('../images/slider1.png');
+                height: 600px;
+                #slider-text{
+                    h1{
+                        font-size: 50px;
+                    }
+                    h2{
+                        font-size: 40px;
+                    }
+                }
+            }
+            #about{
+                p{
+                    margin-top:50px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    }}
